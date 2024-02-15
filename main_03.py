@@ -8,7 +8,7 @@ try:
 
     print("1. (+)\n2. (-)\n3. (*)\n4. (/)")
 
-    selection = input("Choose math action from menu: ")
+    selection = int(input("Choose math action from menu (1-4): "))
 
     match selection:
         case 1:
